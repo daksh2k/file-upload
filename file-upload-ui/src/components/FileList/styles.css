@@ -1,0 +1,21 @@
+.file-list-container{
+    margin: 20px auto;
+    width: 50%;
+}
+.file-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.file-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    list-style-type: none;
+}
+.progress{
+    width: 200px;
+}
+.done{
+    color: var(--bs-success);
+}
